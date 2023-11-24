@@ -13,7 +13,7 @@ tankNmove::tankNmove(RenderWindow& win, ammoNdamage& Ammo, vector<RectangleShape
     pngTank.loadFromFile("resource/tank.png");
 }
 
-void tankNmove::createTank() {d
+void tankNmove::createTank() {
     tankPos[0] = 1400.f / 2.f;
     tankPos[1] = 1050.f / 2.f;
     sprite = Sprite(pngTank);
